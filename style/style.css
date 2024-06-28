@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+html {
+    font-size: 62, 5%;
+}
+
+li a {
+    color: rgb(238, 156, 123);
+    text-decoration: none;
+    display: inline;
+}
+
+.back {
+    background-color: black;
+}
+
+h1 {
+    color: white !important;
+    font-family: "EB Garamond", serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.presentacion {
+    /* mover el texto a la derecha de la foto */
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 230px;
+}
+
+.firstsong {
+    /* mover el texto a la izquierda de la foto */
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 380px;
+}
+
+.h2video1 {
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.h2video2 {
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.h2video3 {
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.p1 {
+    width: 50%;
+    height: 50%;
+    color: aliceblue;
+    display: inline-block;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+.p3 {
+    width: 50%;
+    height: 50%;
+    color: aliceblue;
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 2rem;
+
+}
+
+.p2 {
+    width: 50%;
+    height: 50%;
+    color: aliceblue;
+    flex-direction: row;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.navbanner {
+    text-align: center
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(238, 156, 123);
+}
+
+.navbannervertical {
+    text-align: right;
+    margin-right: 70px;
+    margin-top: 5px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.img1 {
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    display: inline;
+}
+
+li {
+    display: inline-flex;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.search {
+    display: inline;
+    margin-right: 100px;
+    display: inline;
+}
+
+.article {
+    width: 50%;
+    height: 50%;
+    color: aliceblue;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tickets article {
+    display: inline-flex;
+}
+
+.imgshow1 {
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    margin-left: 550px;
+    display: inline-flex;
+}
+
+.imgshow2 {
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    margin-left: 550px;
+    display: inline-flex;
+}
+
+.imgshow3 {
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    margin-left: 550px;
+    display: inline-flex;
+}
+
+.video1 {
+    border-radius: 15px;
+    width: 550px;
+    height: 350px;
+    margin-left: 80px;
+    display: inline;
+}
+
+.video2 {
+    border-radius: 15px;
+    width: 550px;
+    height: 350px;
+    margin-left: 700px;
+    display: inline-flex;
+}
+
+.video3 {
+    border-radius: 15px;
+    width: 550px;
+    height: 350px;
+    margin-left: 80px;
+    display: inline;
+}
+
+.video4 {
+    border-radius: 15px;
+    width: 550px;
+    height: 350px;
+    margin-left: 700px;
+    display: inline-flex;
+}
+
+.pshop1 {
+    text-align: left;
+    color: aliceblue;
+    margin-left: 150px;
+    display: inline;
+}
+
+.pshop2 {
+    display: inline;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 270px;
+}
+
+.pshop3 {
+    display: inline;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 250px;
+}
+
+.shopimg1 {
+    width: 450px;
+    height: 400px;
+}
+
+.shopimg2 {
+    width: 450px;
+    height: 400px;
+}
+
+.shopimg3 {
+    display: inline;
+    width: 350px;
+    height: 400px;
+}
+
+.h2music {
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.h1music {
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 110px;
+}
+
+.music1 {
+    width: 350px;
+    height: 300px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.music2 {
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 550px;
+
+}
+
+.pmusic1 {
+    width: 50%;
+    height: 50%;
+    color: aliceblue;
+    margin-left: 142px;
+}
+
+.pmusic2 {
+    width: 50%;
+    height: 50%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.iframemusic1 {
+    margin-left: 400px;
+}
+
+.iframemusic2 {
+    margin-left: 200px;
+}
+
+.music {
+    border-radius: 10px;
+}
+
+.navgray {
+    color: rgb(161, 161, 161);
+    background-color: rgb(53, 51, 51);
+    border-radius: 5px;
+    padding: auto;
+    text-align: center;
+}
+
+nav a {
+    color: aliceblue !important
+}
+
+.boton {
+    color: rgb(182, 179, 179);
+    border-radius: 7px;
+}
+
+.titlleh1 {
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 110px;
+}
+
+.navsongs {
+    color: black !important;
+}
+
+.pie {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.carrousel {
+    margin-left: 250px;
+}
+
+.navgray ul a {
+    color: black;
+}
+
+.anegro li a {
+    color: black !important;
+}
+
+.cardshow {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-bottom: auto;
+    align-items: flex-end;
+}
+
+.spacecards {
+    margin: 15px;
+}
+
+.sectshop {
+    margin-top: 15px;
+}
+
+.cardshop {
+    background-color: rgb(57, 57, 57);
+    border-radius: 10px;
+    margin: 10px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.pcard {
+    margin-left: 10px;
+}
